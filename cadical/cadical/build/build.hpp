@@ -1,0 +1,5 @@
+#define VERSION "1.9.5"
+#define IDENTIFIER "28b3bbaf6395b37866bf9185f3c1e602e6f016c5"
+#define COMPILER "g++ (GCC) 9.1.0"
+#define FLAGS "-Wall -Wextra -O3 -DNDEBUG"
+#define DATE "Thu Mar 14 20:11:17 EDT 2024 Linux gra-login1 3.10.0-1160.88.1.el7.x86_64 x86_64"

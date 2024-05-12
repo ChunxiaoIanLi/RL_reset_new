@@ -1,0 +1,24 @@
+Step 1:
+    Modularize the reset solver
+Step 2:
+    Run DRAT-TRIM on all UNSAT instances (SATCoin + SAT2021 + SAT2022) using the weird reset CDCL version
+Step 3:
+    Run DRAT-TRIM on all UNSAT instances (SATCoin + SAT2021 + SAT2022) using the base CDCL version
+Step 4:
+    Develop cactus plot for SATCoin + SAT2022 + SAT2021
+
+Results:
+1. All UNSAT instances are verified by DRAT-TRIM (except one with memory issue) for both solvers
+2. SAT instances are having problem being verified by DRAT-TRIM for both solvers
+3. Weird reset solver beats base solver in SATCoin and SAT2021 (by 5 instance)
+4. Weird reset solver loses to base solver in SAT2022 (by 1 instance)
+
+Possible Idea:
+1. Go back to the normal (correct) reset
+2. Weird reset could also support the theory of reset
+3. Try different reset frequencies (probabilities) to make the reset solver beat base solver in 2021 and 2022
+    -> This would potentially make our argument stronger
+4.
+
+SDCL News:
+1. 
